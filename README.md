@@ -1,4 +1,4 @@
-# Unofficial Africa's Talking Golang API Wrapper  [![CircleCI](https://circleci.com/gh/tralahm/africastalking-go.svg?style=shield)](https://circleci.com/gh/tralahm/africastalking-go)
+# Unofficial Africa's Talking Golang API Wrapper
 The wrapper provides convenient access to the Africa's Talking API from applications written in server-side Golang. This is Work in Progress
 
 ## Installing
