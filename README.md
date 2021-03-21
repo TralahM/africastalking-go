@@ -74,7 +74,7 @@ We invoke this function using the following code -  You can declare recipient an
 
 ```golang
 //Send SMS - REPLACE Recipient and Message with REAL Values
-smsResponse, err := smsService.Send("Recipient", "Message To Send", "")
+smsResponse, err := smsService.Send("SENDERID/ALPHANUMERIC","Recipient", "Message To Send")
 if err != nil {
 	fmt.Println(err)
 }
@@ -104,7 +104,7 @@ func main() {
 	smsService := sms.NewService(username, apiKey, env)
 
 	//Send SMS - REPLACE Recipient and Message with REAL Values
-	recipients, err := smsService.Send("Recipient", "Message To Send", "ShortCode" //Leave blank, "", if you don't have one)
+	recipients, err := smsService.Send( "ShortCode","Recipient", "Message To Send")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -113,7 +113,6 @@ func main() {
 }
 
 ```
-You can easily test this using [Postman](https://www.getpostman.com) or [Insomnia](https://insomnia.rest) Clients!
 
 ### Contributing and Issues
 
