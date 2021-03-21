@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/AndroidStudyOpenSource/africastalking-go/account"
-	"github.com/AndroidStudyOpenSource/africastalking-go/sms"
+	"github.com/tralahm/africastalking-go/account"
+	"github.com/tralahm/africastalking-go/sms"
 )
 
 var (

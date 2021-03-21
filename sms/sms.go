@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AndroidStudyOpenSource/africastalking-go/util"
+	"github.com/tralahm/africastalking-go/util"
 )
 
 const (

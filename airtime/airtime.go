@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"time"
-	"github.com/AndroidStudyOpenSource/africastalking-go/util"
+	"github.com/tralahm/africastalking-go/util"
 )
 
 // Response is the reponse from the api

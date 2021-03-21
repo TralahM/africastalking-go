@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"strconv"
 	"bytes"
-	"github.com/AndroidStudyOpenSource/africastalking-go/util"
+	"github.com/tralahm/africastalking-go/util"
 )
 
 // CheckoutTokenResponse is the response from a create checkout token request

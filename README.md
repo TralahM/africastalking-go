@@ -1,4 +1,4 @@
-# Unofficial Africa's Talking Golang API Wrapper  [![CircleCI](https://circleci.com/gh/AndroidStudyOpenSource/africastalking-go.svg?style=shield)](https://circleci.com/gh/AndroidStudyOpenSource/africastalking-go)
+# Unofficial Africa's Talking Golang API Wrapper  [![CircleCI](https://circleci.com/gh/tralahm/africastalking-go.svg?style=shield)](https://circleci.com/gh/tralahm/africastalking-go)
 The wrapper provides convenient access to the Africa's Talking API from applications written in server-side Golang. This is Work in Progress
 
 ## Installing
@@ -6,27 +6,27 @@ You can install any of the packages as shown below:
 
 ### Sms
 ```sh
-go get github.com/AndroidStudyOpenSource/africastalking-go/sms
+go get github.com/tralahm/africastalking-go/sms
 ```
 
 ### Airtime
 ```sh
-go get github.com/AndroidStudyOpenSource/africastalking-go/airtime
+go get github.com/tralahm/africastalking-go/airtime
 ```
 
 ### Account
 ```sh
-go get github.com/AndroidStudyOpenSource/africastalking-go/account
+go get github.com/tralahm/africastalking-go/account
 ```
 
 ### Payment
 ```sh
-go get github.com/AndroidStudyOpenSource/africastalking-go/payment
+go get github.com/tralahm/africastalking-go/payment
 ```
 
 ### Tokens
 ```sh
-go get github.com/AndroidStudyOpenSource/africastalking-go/token
+go get github.com/tralahm/africastalking-go/token
 ```
 
 ### Demo
@@ -65,10 +65,10 @@ This is how we create the Gateway in our code:
 smsService := sms.NewService(username, apiKey, env)
 ```
 
-### SMS 
+### SMS
 When sending a message, you need to pass the following data:
-* **Recipient(s)** 
-* **Message** 
+* **Recipient(s)**
+* **Message**
 
 We invoke this function using the following code -  You can declare recipient and message as variables for code neatness:
 
@@ -90,7 +90,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/AndroidStudyOpenSource/africastalking-go/sms"
+	"github.com/tralahm/africastalking-go/sms"
 )
 
 const (
